@@ -54,4 +54,8 @@ public class AdminService {
             throw new  ELException(id.toString() + " isn't in admin list");
         }
     }
+
+    public String sendMail() {
+        return "";
+    }
 }

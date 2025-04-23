@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hotel/customer/")
+@RequestMapping("/hotel/customer")
 public class CustomerController {
     final CustomerService customerService;
 
