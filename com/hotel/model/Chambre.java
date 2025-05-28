@@ -7,10 +7,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "Admin")
+@Table(name = "Chambre")
 @Getter
 @Setter
-public class Admin extends com.hotel.model.Personne {
+public class Chambre {
 	@Id
-	private String matricule;
+	private String numero;
+	private String type;
+	private String status;
+	private int prix;
 }

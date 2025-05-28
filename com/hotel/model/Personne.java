@@ -7,10 +7,10 @@ import lombok.Setter;
 @MappedSuperclass
 @Getter
 @Setter
-public class Person {
-    protected String name;
-    protected String surName;
+public class Personne {
+    protected String nom;
+    protected String prenoms;
     protected String email;
-    protected String phone;
-    protected String passWord;
+    protected String tel;
+    protected String mdp;
 }
